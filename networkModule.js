@@ -33,6 +33,12 @@ import {networkInterfaces,family,address,internal} from "node:os";//importa el m
 const datosRed={
     Interfaz: networkInterfaces(),
 }
+
+//familia:family(),
+//Dirección: address(),
+///Interno: internal()
+
+
 /*
 interfaz.Ethernet
 
@@ -40,7 +46,5 @@ console.log(datosRed);
 
 export default {datosRed};
 
-familia:family(),
-Dirección: address(),
-Interno: internal()*/
+
 
