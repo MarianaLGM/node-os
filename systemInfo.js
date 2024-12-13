@@ -11,3 +11,11 @@ Menú Terminal -> Nuevo Terminal -> Ejecutamos `node systemInfo.js` y vemos el r
 - Completa el archivo `systemInfo.js` para imprimir la información. Puedes utilizar un bucle for...in, forEach, ... También Object.entries para recorrer los objetos e imprimir la información.
 - Documentación `node:os` https://nodejs.org/api/os.html
 - Algunos métodos os: version(), platform(), cpus(), totalmem(), networkInterfaces, freemem(), type(), arch()*/
+
+/*
+import network y osModule
+
+console.log de ambos
+
+ejecutar system*/
+

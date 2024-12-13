@@ -20,3 +20,27 @@ Interfaz en5:
   Familia: IPv6s
   Dirección: fe80::aede:48ff:fe00:1122
   Interno: false*/
+
+
+  /*INTERFACES
+     -familia - family
+     -dirección -address
+     -interno -internal
+
+  */
+
+import {networkInterfaces,family,address,internal} from "node:os";//importa el módulo OS de Node.js
+const datosRed={
+    Interfaz: networkInterfaces(),
+}
+/*
+interfaz.Ethernet
+
+console.log(datosRed);
+
+export default {datosRed};
+
+familia:family(),
+Dirección: address(),
+Interno: internal()*/
+
