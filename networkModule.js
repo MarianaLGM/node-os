@@ -34,6 +34,8 @@ const datosRed={
     Interfaz: networkInterfaces(),
 }
 
+console.log(datosRed);
+
 //familia:family(),
 //Dirección: address(),
 ///Interno: internal()
@@ -42,7 +44,7 @@ const datosRed={
 /*
 interfaz.Ethernet
 
-console.log(datosRed);
+
 
 export default {datosRed};
 
