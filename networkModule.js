@@ -29,7 +29,7 @@ Interfaz en5:
 
   */
 
-import {networkInterfaces,family,address,internal} from "node:os";//importa el módulo OS de Node.js
+import {networkInterfaces} from "node:os";//importa el módulo OS de Node.js
 const datosRed={
     Interfaz: networkInterfaces(),
 }
