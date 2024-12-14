@@ -31,22 +31,17 @@ Interfaz en5:
 
 import {networkInterfaces} from "node:os";//importa el módulo OS de Node.js
 const datosRed={
-    Interfaz: networkInterfaces(),
+    interface: networkInterfaces(),
 }
 
-console.log(datosRed);
-
-//familia:family(),
-//Dirección: address(),
-///Interno: internal()
-
-
-/*
-interfaz.Ethernet
-
-
+console.log(datosRed.interface);
 
 export default {datosRed};
+
+
+
+
+
 
 
 
