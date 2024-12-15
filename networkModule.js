@@ -40,7 +40,7 @@ export default {datosRed};
 
 
 
-
+//escribo en terminar node networkModule.js para mostrar datos
 
 
 

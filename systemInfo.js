@@ -15,11 +15,12 @@ Menú Terminal -> Nuevo Terminal -> Ejecutamos `node systemInfo.js` y vemos el r
 - Algunos métodos os: version(), platform(), cpus(), totalmem(), networkInterfaces, freemem(), type(), arch()*/
 
 
-//import network y osModule
+//1. import network y osModule
 import {infoPc} from "./osModule.js";
-import {datosRed} from "./networkModule.mjs";
+import {datosRed} from "./networkModule.js";
 
 console.log (infoPc);
 console.log (datosRed);
 
-//jecutar system ****`node systemInfo.js`****
+//2.jecutar system ****`node systemInfo.js`****bucle para recorrer e imprimir PENDIENTE
+

@@ -32,6 +32,24 @@ console.log(infoPc);
 
 export default {infoPc};
 
+//pasar b a mb
+
+//MemoriaTotal: 17028292608,
+//MemoriaLibre: 10047266816
+
+let bytes= 68718940160;
+
+function readableBytes(bytes) {
+    let i = Math.floor(Math.log(bytes) / Math.log(1024)),
+    sizes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+    
+    return (bytes / Math.pow(1024, 2)).toFixed(2) * 1 + ' ' + sizes[2];
+    }
+
+    readableBytes(bytes) 
+    console.log(readableBytes)
+
+//escribo en terminar node osModule.js para mostrar datos
 
 /*
 console.log(os.this)//TRAE TODO
