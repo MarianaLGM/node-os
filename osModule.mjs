@@ -3,7 +3,7 @@ Crear un programa en Node.js que imprima información sobre el sistema operativo
 
 Implementación de `osModule.js`
 
-/*1.En el archivo `osModule.js` deberás sacar los siguientes datos:
+/*1.En el archivo `osModule.mjs` deberás sacar los siguientes datos:
 - Nombre, Tipo, Versión, Arquitectura, CPUs, Memoria Total, Memoria Libre.
 - Memoria Total y Memoria Libre tendrá que estar en MB. Mira que dato dá y qué cáculo debes hacer*/
 
@@ -20,10 +20,9 @@ const infoPc={
 
 console.log(infoPc);
 
-export default {infoPc};
+export default infoPc;
 
 //pasar b a mb
-
 //MemoriaTotal: 17028292608,
 //MemoriaLibre: 10047266816
 
