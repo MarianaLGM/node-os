@@ -36,7 +36,7 @@ function readableBytes(bytes) {
     }
 
     readableBytes(bytes) 
-    console.log(readableBytes)
+
 
 //escribo en terminar node osModule.js para mostrar datos
 
