@@ -1,7 +1,9 @@
 
 
 //1. import network y osModule
-import infoPc from "./osModule.mjs";
+import {infoPc} from "./osModule.mjs";
+infoPc();
+
 import datosRed from "./networkModule.mjs";
 
 console.log (infoPc);

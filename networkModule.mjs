@@ -4,6 +4,7 @@
  */
 
 import {networkInterfaces} from "node:os";//importa el módulo OS de Node.js
+//otra forma de exportar:module.export infoPc; 
 const datosRed={
     interface: networkInterfaces(),
 }
