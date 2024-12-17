@@ -26,15 +26,6 @@ console.log(infoPc);
 
 export default infoPc;//otra forma de exportar:module.export infoPc; 
 
-
-
-
-//pasar b a mb
-//MemoriaTotal: 17028292608,
-//MemoriaLibre: 10047266816
-
-
-
 //escribo en terminar node osModule.js para mostrar datos
 
 /*
